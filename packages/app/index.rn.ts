@@ -25,7 +25,7 @@ import { createFirebaseNamespace } from './src/firebaseNamespace';
  * here
  */
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const { AsyncStorage } = require('@react-native-community/viewpager');
+const { AsyncStorage } = require('@react-native-community/async-storage');
 
 const _firebase = createFirebaseNamespace() as _FirebaseNamespace;
 
